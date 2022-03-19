@@ -47,12 +47,10 @@ app.post("/", (req, res) => {
    
       if (response.statusCode === 200) {
         res.sendFile(__dirname + "/success.html");
-        // console.log(`Success`);
-      // res.send("Successfully subscribed");
+     
     } else {
         res.sendFile(__dirname + "failure.html");
-        // console.log(`Error`);
-      // res.send("Failed to subscribe");
+      
     }
    
     response.on(`data`, (data) => {
@@ -71,8 +69,3 @@ app.listen(process.env.PORT || 3000, () => {
   console.log(`app is listening at port 3000`);
 });
 
-// API KEY
-// e5f1bb4518593dde8a2bcb3cd820343a-us14
-
-// LIST ID/AUDIENCE ID
-// db70272f05
