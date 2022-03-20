@@ -1,5 +1,0 @@
-// API KEY
-// e5f1bb4518593dde8a2bcb3cd820343a-us14
-
-// LIST ID/AUDIENCE ID
-// db70272f05
